@@ -1,5 +1,5 @@
 # PDMod4Play
-Tracker module player demo for Playdate
+Tracker module player demo for Playdate. It uses [mod4play](https://github.com/dashodanger/mod4play) library.
 
 ## Building instructions
 
