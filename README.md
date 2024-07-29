@@ -1,9 +1,15 @@
 # PDMod4Play
-Tracker module player demo for Playdate. It uses [mod4play](https://github.com/dashodanger/mod4play) library.
+Tracker module player demo for Playdate based on [mod4play](https://github.com/dashodanger/mod4play) library by [dashodanger](https://github.com/dashodanger).
+
+This project is not meant to be a proper module player for Playdate. This is a demo for Playdate developers who want to use tracker music in their projects.
+
+You can add MOD, XM, S3M, and IT file to the `Source` folder and the demo app will recognize them. Press UP or DOWN buttons to scan through modules.
+
+Playdate is quite slow with memory operations, so by default the performance is not very good. 8-channel S3Ms choke on the RevA playdate, but 8-channels XMs play well. RevB Playdates do better. I'm going to experiment with mixing routines and try to optimize them.
 
 ## Building instructions
 
-Create `build` and `build_device` folders.
+This is a regular CMake-based Playdate app, so no special instructions. Create `build` and `build_device` folders.
 
 Build for the simulator:
 
