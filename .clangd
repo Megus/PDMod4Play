@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [--include-directory=/Users/romanpetrov/Developer/PlaydateSDK/C_API, -DTARGET_EXTENSION=1, -DPLAYEDATE_SIMULATOR=1]

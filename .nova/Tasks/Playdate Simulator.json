@@ -1,0 +1,23 @@
+{
+  "actions" : {
+    "build" : {
+      "postActions" : [
+        {
+          "script" : "cd build\ncmake ..\nmake",
+          "type" : "runScript"
+        }
+      ]
+    }
+  },
+  "extension" : {
+    "identifier" : "com.panic.Playdate",
+    "name" : "Playdate"
+  },
+  "extensionTemplate" : "simulator",
+  "extensionValues" : {
+    "playdate.build-type" : "custom",
+    "playdate.debugRequest" : "attach",
+    "playdate.main-path" : "Source"
+  },
+  "openLogOnRun" : "fail"
+}
