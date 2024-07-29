@@ -8,4 +8,4 @@ Source/*.xm
 Source/*.it
 Source/*.mod
 Source/*.s3m
-!Source/meg_ccl8.s3m
+!Source/megus*.*
