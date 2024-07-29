@@ -1,2 +1,0 @@
-CompileFlags:
-  Add: [--include-directory=${PLAYDATE_SDK_PATH}/C_API, -DTARGET_EXTENSION=1, -DPLAYEDATE_SIMULATOR=1]

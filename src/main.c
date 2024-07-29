@@ -102,10 +102,6 @@ int buttonCallback(PDButtons button, int down, uint32_t when, void* userdata) {
       modIdx++;
     }
     loadModule(modIdx);
-  } else if (button == kButtonA) {
-
-  } else if (button == kButtonB) {
-
   }
   
   return 0;
