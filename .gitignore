@@ -1,3 +1,9 @@
+.clangd
 build
 build_device
 PDMod4Play.pdx
+Source/*.xm
+Source/*.it
+Source/*.mod
+Source/*.s3m
+!Source/meg_ccl8.s3m
